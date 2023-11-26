@@ -5,6 +5,7 @@
     transform: translateX(-50%);
     display: flex;
     align-items: center;
+    
 }
 
 .container-langs img {
@@ -12,4 +13,18 @@
     height: 50px;
     margin: 5px;
     cursor: pointer;
+}
+.container-langs {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust as needed */
+    max-width: 100%;
+    /* Ensure the container doesn't exceed the viewport width */
+}
+
+.lang-flag {
+    max-width: 100%;
+    /* Make sure the image doesn't exceed its container's width */
+    height: auto;
+    /* Maintain aspect ratio */
 }

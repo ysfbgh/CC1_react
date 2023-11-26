@@ -11,27 +11,27 @@ export default function ToggleLangs() {
   const { setLang } = useContext(Context);
 
   return (
-    <div className="container-langs   ">
+    <div className="container-langs">
       <img
-        className="lang-flag"
+        className="lang-flag img-fluid"
         onClick={() => setLang("FR")}
         src={FrenchFlag}
         alt="French Flag"
       />
       <img
-        className="lang-flag"
+        className="lang-flag img-fluid"
         onClick={() => setLang("EN")}
         src={EnglishFlag}
         alt="English Flag"
       />
       <img
-        className="lang-flag"
+        className="lang-flag img-fluid"
         onClick={() => setLang("ES")}
         src={SpanishFlag}
         alt="Spanish Flag"
       />
       <img
-        className="lang-flag"
+        className="lang-flag img-fluid"
         onClick={() => setLang("PL")}
         src={PalestineFlag}
         alt="Palestine Flag"
