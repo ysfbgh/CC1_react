@@ -12,10 +12,11 @@ const Menu = () => {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/App5"> Acceuil</Navbar.Brand>
+        <Navbar.Brand href="/"> Acceuil</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="ml-auto">
+            <NavItem to="/App5" text="TP_Lang" />
             <NavItem to="/App1" text="Calculatrice" />
             <NavItem to="/Slider" text="Slider" />
             <NavItem to="/App3" text="TodoList" />
@@ -26,8 +27,6 @@ const Menu = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    
-
     </>
   );
 };

@@ -16,6 +16,7 @@ const App = () => {
     <div>
       <Menu />
       <Routes>
+        <Route path="/" element={<App5 />} />
         <Route path="/App5" element={<App5 />} />
         <Route path="/App1" element={<App1 />} />
         <Route path="/Slider" element={<Slider />} />
