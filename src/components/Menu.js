@@ -1,21 +1,23 @@
+// Menu.js
+
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
 import DarkMode from "./DarkMode/DarkMode";
-import './Menu.css'
-
+import App5 from "./tp5/TP_multilang/src/App";
+import "./Menu.css";
 
 const Menu = () => {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/"> Acceuil</Navbar.Brand>
+        <Navbar.Brand href="/App5"> Acceuil</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav" />
         <Navbar.Collapse id="navbarNav">
           <Nav className="ml-auto">
             <NavItem to="/App1" text="Calculatrice" />
-            <NavItem to="/App2" text="Slider" />
+            <NavItem to="/Slider" text="Slider" />
             <NavItem to="/App3" text="TodoList" />
             <NavItem to="/App4" text="API" />
             <li className="nav-item">
@@ -24,7 +26,8 @@ const Menu = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      
+    
+
     </>
   );
 };

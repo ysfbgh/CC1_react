@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CC1_react/static/css/main.3612313b.css",
-    "main.js": "/CC1_react/static/js/main.afd81e76.js",
+    "main.css": "/CC1_react/static/css/main.c85aeed8.css",
+    "main.js": "/CC1_react/static/js/main.a5b8d9b1.js",
     "static/media/skysports-khabib-nurmagomedov_5116546.jpg": "/CC1_react/static/media/skysports-khabib-nurmagomedov_5116546.3b188134cb41ba723c22.jpg",
     "static/media/16771948460814.jpg": "/CC1_react/static/media/16771948460814.ee354d56fde20c957b8f.jpg",
     "static/media/6512eb15010a6.jpeg": "/CC1_react/static/media/6512eb15010a6.32b60447bef5a1c1cae4.jpeg",
@@ -12,11 +12,11 @@
     "static/media/Moon.svg": "/CC1_react/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
     "static/media/france.svg": "/CC1_react/static/media/france.40c79af5ce5231775ae018679c075255.svg",
     "static/media/ps.svg": "/CC1_react/static/media/ps.2259eff836201285e2109f2a4e1d47aa.svg",
-    "main.3612313b.css.map": "/CC1_react/static/css/main.3612313b.css.map",
-    "main.afd81e76.js.map": "/CC1_react/static/js/main.afd81e76.js.map"
+    "main.c85aeed8.css.map": "/CC1_react/static/css/main.c85aeed8.css.map",
+    "main.a5b8d9b1.js.map": "/CC1_react/static/js/main.a5b8d9b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3612313b.css",
-    "static/js/main.afd81e76.js"
+    "static/css/main.c85aeed8.css",
+    "static/js/main.a5b8d9b1.js"
   ]
 }
